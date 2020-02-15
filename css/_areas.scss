@@ -4,16 +4,22 @@
   display: flex;
   align-items: center;
   position: relative;
+
+  img {
+    height: 54px;
+  }
   
   .areas__icon {
     width: 208px;
     height: 283px;
-    background-image: url('../img/cc_icon.png');
     position: absolute;
     left: calc(100% - 208px);
-    top: 104px;
+    top: 124px;
+    background-image: url('../img/codecaravan-icon-04.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  
+
   .areas__cards{
     width: 250px; 
     padding-left: 35px;

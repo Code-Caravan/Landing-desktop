@@ -49,7 +49,18 @@
       position: relative;
     }
     #message {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      font-weight: lighter;
+      letter-spacing: 0;
+      color: $light_green;
+      background-color: $blue;
+      padding: 10px;
       height: 160px;
+      width: calc(200% + 64px);
+      margin-bottom: 22px;
+      border: 0;
+      box-sizing: border-box;
     }
   }
 }

@@ -11,8 +11,8 @@ nav .nav__logo {
 }
 
 nav .nav__logo img {
-  margin-top: 50px;
-  margin-left: 150px;
+  height: 250px;
+  margin-left: 100px;
   position: absolute;
 }
 
@@ -142,13 +142,19 @@ nav .nav__menu li a:hover {
   position: relative;
 }
 
+.areas img {
+  height: 54px;
+}
+
 .areas .areas__icon {
   width: 208px;
   height: 283px;
-  background-image: url("../img/cc_icon.png");
   position: absolute;
   left: calc(100% - 208px);
-  top: 104px;
+  top: 124px;
+  background-image: url("../img/codecaravan-icon-04.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .areas .areas__cards {
@@ -489,7 +495,19 @@ nav .nav__menu li a:hover {
 }
 
 .form-section__container .form-section__group #message {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  font-weight: lighter;
+  letter-spacing: 0;
+  color: #D7FDEC;
+  background-color: #0074D9;
+  padding: 10px;
   height: 160px;
+  width: calc(200% + 64px);
+  margin-bottom: 22px;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .last-infos {
