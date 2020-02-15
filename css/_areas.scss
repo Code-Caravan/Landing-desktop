@@ -1,0 +1,43 @@
+.areas {
+  background-color: $black;
+  height: 272px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  
+  .areas__icon {
+    width: 208px;
+    height: 283px;
+    background-image: url('../img/cc_icon.png');
+    position: absolute;
+    left: calc(100% - 208px);
+    top: 104px;
+  }
+  
+  .areas__cards{
+    width: 250px; 
+    padding-left: 35px;
+
+    h3 {
+      margin: 12px 0 10px 0;
+      font-family: 'Muli', sans-serif;
+      font-size: 30px;
+      line-height: 26px;
+      letter-spacing: 0;
+      font-weight: medium;
+      color: $green;
+    }
+
+    ul{
+      li{
+        color: $green;
+        list-style-type: none;
+        font-family: 'Muli', sans-serif;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0;
+        font-weight: lighter;
+      }
+    }
+  }
+}
