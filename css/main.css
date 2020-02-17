@@ -132,7 +132,7 @@ nav .nav__menu a:hover {
 }
 
 .banner .banner__image {
-  background-image: url("/img/banner1.png");
+  background-image: url("../img/banner1.png");
   background-repeat: no-repeat;
   background-size: cover;
   -ms-grid-column: 4;
@@ -206,7 +206,7 @@ nav .nav__menu a:hover {
 .banner2 {
   height: 606px;
   width: 100%;
-  background-image: url("/img/banner2.png");
+  background-image: url("../img/banner2.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
